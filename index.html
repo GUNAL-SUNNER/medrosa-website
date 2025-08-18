@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medrosa Digitech Limited</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header / Hero */
+    header {
+      background: linear-gradient(135deg, #2b2d42, #5a189a);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      margin: 0 12px;
+      padding: 8px 15px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: white;
+      color: #5a189a;
+    }
+
+    /* Section General */
+    section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 25px;
+      color: #2b2d42;
+    }
+
+    /* About */
+    .about {
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    /* Services */
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .service-box {
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      transition: transform 0.3s;
+    }
+
+    .service-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .service-box img {
+      width: 50px;
+      margin-bottom: 15px;
+    }
+
+    /* Contact Form */
+    .contact-form {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    }
+
+    .contact-form form {
+      display: grid;
+      gap: 15px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-size: 1rem;
+      width: 100%;
+    }
+
+    .contact-form button {
+      background: #5a189a;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .contact-form button:hover {
+      background: #2b2d42;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #2b2d42;
+      color: white;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero / Header -->
+  <header>
+    <h1>Medrosa Digitech Limited</h1>
+    <p>Empowering Businesses with Modern Technology Solutions</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <div class="about">
+      <p>
+        Medrosa Digitech Limited is a leading consultancy and technology solutions provider. 
+        We specialize in delivering innovative IT solutions, empowering businesses to thrive in 
+        the digital era. With expertise across multiple domains, our mission is to bridge the gap 
+        between technology and growth.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-box"><img src="https://img.icons8.com/color/96/web-design.png" alt="">Web Development</div>
+      <div class="service-box"><img src="https://img.icons8.com/color/96/android-os.png" alt="">Mobile App Development</div>
+      <div class="service-box"><img src="https://img.icons8.com/color/96/cloud.png" alt="">Cloud Solutions</div>
+      <div class="service-box"><img src="https://img.icons8.com/color/96/artificial-intelligence.png" alt="">AI & ML</div>
+      <div class="service-box"><img src="https://img.icons8.com/color/96/combo-chart--v1.png" alt="">Data Analytics</div>
+      <div class="service-box"><img src="https://img.icons8.com/color/96/security-checked.png" alt="">Cybersecurity</div>
+      <div class="service-box"><img src="https://img.icons8.com/color/96/blockchain.png" alt="">Blockchain</div>
+      <div class="service-box"><img src="https://img.icons8.com/color/96/design.png" alt="">UI/UX Design</div>
+      <div class="service-box"><img src="https://img.icons8.com/color/96/engineering.png" alt="">DevOps</div>
+      <div class="service-box"><img src="https://img.icons8.com/color/96/online-store.png" alt="">E-Commerce Solutions</div>
+      <div class="service-box"><img src="https://img.icons8.com/color/96/training.png" alt="">IT Consulting</div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-form">
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="tel" placeholder="Your Phone" required>
+        <textarea rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Medrosa Digitech Limited | All Rights Reserved</p>
+    <p>Email: info@medrosadigitechltd.com | Phone: +91-XXXXXXXXXX</p>
+  </footer>
+
+</body>
+</html>
